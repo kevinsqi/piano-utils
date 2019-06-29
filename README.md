@@ -1,5 +1,7 @@
 # piano-utils
 
+[![build status](https://travis-ci.com/kevinsqi/piano-utils.svg?branch=master)](https://travis-ci.com/kevinsqi/piano-utils/)
+
 A set of functional utilities to help you build piano UI components in javascript. Extracted from [react-piano](https://github.com/kevinsqi/react-piano).
 
 ## Installation
