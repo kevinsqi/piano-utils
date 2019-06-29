@@ -1,4 +1,15 @@
+import KeyboardShortcuts from './KeyboardShortcuts';
 import MidiNumbers from './MidiNumbers';
-import { MidiNumberAttributes } from './types';
+import {
+  KeyboardConfigItem,
+  KeyboardShortcut,
+  MidiNumberAttributes,
+} from './types';
 
-export { MidiNumbers, MidiNumberAttributes };
+export {
+  KeyboardConfigItem,
+  KeyboardShortcut,
+  KeyboardShortcuts,
+  MidiNumberAttributes,
+  MidiNumbers,
+};
