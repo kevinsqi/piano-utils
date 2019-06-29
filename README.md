@@ -31,7 +31,8 @@ MidiNumbers.fromNote('Eb5'); // => 75
 Getting attributes of a midi number:
 
 ```js
-MidiNumbers.getAttributes(51);
+const attrs = MidiNumbers.getAttributes(51);
+
 // {
 //   note: 'Eb3',
 //   pitchName: 'Eb',
@@ -52,11 +53,12 @@ import { KeyboardShortcuts } from 'piano-utils';
 Building an array of keyboard shortcuts mapping key names to midi numbers:
 
 ```js
-KeyboardShortcuts.create({
+const shortcuts = KeyboardShortcuts.create({
   firstNote: 48,
   lastNote: 60,
   keyboardConfig: KeyboardShortcuts.HOME_ROW,
 });
+
 // {
 //   key: 'a',
 //   midiNumber: 48,
