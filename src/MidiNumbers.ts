@@ -49,9 +49,6 @@ const NOTES_IN_OCTAVE = 12;
 // - http://www.flutopedia.com/octave_notation.htm
 // - https://github.com/danigb/tonal/blob/master/packages/note/index.js
 function fromNote(note: string): number | null {
-  if (!note) {
-    throw Error('Invalid note argument');
-  }
   const match = NOTE_REGEX.exec(note.toLowerCase());
   if (!match) {
     throw Error('Invalid note argument');
