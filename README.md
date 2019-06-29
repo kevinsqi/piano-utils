@@ -86,23 +86,11 @@ This library was built with [tsdx](https://github.com/palmerhq/tsdx).
 Make changes and keep typescript compiling with:
 
 ```
-
 yarn start
-
 ```
 
 Run tests with:
 
 ```
-
 yarn test
-
-```
-
-```
-
-```
-
-```
-
 ```
