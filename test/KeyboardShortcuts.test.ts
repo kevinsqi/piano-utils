@@ -53,3 +53,36 @@ describe('create', () => {
     ]);
   });
 });
+
+describe('HOME_ROW', () => {
+  test('works correctly', () => {
+    const keyboardShortcuts = KeyboardShortcuts.create({
+      firstNote: 48,
+      lastNote: 52,
+      keyboardConfig: KeyboardShortcuts.HOME_ROW,
+    });
+
+    expect(keyboardShortcuts).toEqual([
+      {
+        key: 'a',
+        midiNumber: 48,
+      },
+      {
+        key: 'w',
+        midiNumber: 49,
+      },
+      {
+        key: 's',
+        midiNumber: 50,
+      },
+      {
+        key: 'e',
+        midiNumber: 51,
+      },
+      {
+        key: 'd',
+        midiNumber: 52,
+      },
+    ]);
+  });
+});
